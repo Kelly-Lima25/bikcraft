@@ -1,6 +1,6 @@
 
 .header-bg{
-    background-color: #000000;
+    background-color: var(--cor-12);
 }
 
 .header{
@@ -26,11 +26,10 @@
 .header-menu a {
     display: inline-block;
     padding: 16px 0px;
-    color: #ffffff;
     font-size: 1.125rem;
     position: relative;
-   font-family: 'Poppins';
-   font-weight: 400;
+    font-family: 'Poppins';
+    font-weight: 400;
 }
 
 .header-menu a:after{
@@ -39,7 +38,7 @@
     margin-top: 4px;
     height: 2px;
     width: 0%;
-    background: #ffffff;
+    background: var(--cor-0);
     position: absolute;
 }
 
@@ -53,12 +52,12 @@
         gap: 20px;
     }
     .header-menu a{
-        background-color: #111111;
+        background-color:var(--cor-11);
         padding: 12px 16px;
         border-radius: 4px;
     }
     .header-menu a:hover{
-        background-color: #2E2E2E;
+        background-color: var(--cor-10);
     }
 
     .header-menu a:after{
