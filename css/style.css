@@ -6,5 +6,6 @@
 @import "./utilidades/componentes.css";
 
 @import"./home/intro.css";
-@import"./bicicletas/bicicletas-listas.css"
+@import"./bicicletas/bicicletas-listas.css";
+@import "./home/tecnologias.css";
 
