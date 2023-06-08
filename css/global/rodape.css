@@ -1,0 +1,66 @@
+.rodape-bg{
+    background-color: var(--cor-12);
+}
+
+.rodape{
+    display: grid;
+    grid-template-columns: 3fr 5fr 4fr;
+    gap: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.rodape h2{
+    margin-bottom: 32px;
+}
+
+.rodape-contato ul{
+    margin-bottom: 32px;
+}
+
+.rodape-contato li:nth-child(even):after{
+    content: '';
+    display: block;
+    max-width: 360px;
+    height: 2px;
+    background: var(--cor-11);
+    margin-top: 16px;
+}
+
+.rodape li{
+    margin-bottom: 16px;
+}
+
+.rede-sociais{
+    display: flex;
+    gap: 32px;
+}
+
+.rodape a:hover{
+    color: var(--cor-0);
+}
+
+.rodape-copy{
+    grid-column: 1/-1;
+    margin-top: 40px;
+}
+
+@media(max-width:800px){
+    .rodape>img{
+        display: none;
+    }
+    .rodape{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(max-width:600px){
+    .rodape{
+        grid-template-columns: 1fr;
+        gap:60px;
+    }
+
+    .rodape-copy{
+        margin-top:0px;
+    }
+}

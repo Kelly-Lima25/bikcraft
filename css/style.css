@@ -3,14 +3,14 @@
 @import "./utilidades/cores.css";
 
 @import "./global/header.css";
+@import "./global/rodape.css";
+
 @import "./utilidades/componentes.css";
 
 @import"./home/intro.css";
 @import "./home/tecnologias.css";
 @import "./home/parceiros.css";
 @import "./home/depoimentos.css";
-
-
 
 @import"./bicicletas/bicicletas-listas.css";
 
