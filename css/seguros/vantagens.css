@@ -1,0 +1,30 @@
+.vantagens-bg{
+    background-color: var(--cor-12);
+}
+.vantagens{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.vantagens .tecnologias-tipos{
+    padding-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, max-content));
+    gap:40px 80px;
+}
+
+.perguntas{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+
+@media(max-width:800px){
+    .vantagens{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .vantagens .tecnologias-tipos{
+        gap: 20px;
+    }
+}
