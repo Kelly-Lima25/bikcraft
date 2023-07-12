@@ -57,6 +57,10 @@
     text-transform: uppercase; 
  }
 
+ .font-2-xl{
+    font: 500 2.25rem/1.35 'Roboto', sans-serif;
+ }
+
 
  @media(max-width:1200px){
     .font-1-xxl{
