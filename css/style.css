@@ -2,10 +2,12 @@
 @import "./utilidades/tipografia.css";
 @import "./utilidades/cores.css";
 
+
 @import "./global/header.css";
 @import "./global/rodape.css";
 
 @import "./utilidades/componentes.css";
+@import "./utilidades/formulario.css";
 
 @import"./home/intro.css";
 @import "./home/tecnologias.css";
@@ -22,5 +24,7 @@
 @import "./seguros/vantagens.css";
 @import "./seguros/perguntas.css";
 
+@import "./contato/contato.css";
+@import "./contato/lojas.css";
 
 @import "./termos/termos.css";
